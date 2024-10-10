@@ -26,10 +26,9 @@ const saveAccountInfo = (content, language, sessionId) => {
   fs.writeFileSync(jsonFilePath, JSON.stringify(accountInfo, null, 2));
   console.log(`Account info saved for Session ID: ${sessionId}`);
 };
-async function sendRequest(sessionId, randomContent, i) {
-  const url = 'https://webcast16-normal-c-useast1a.tiktokv.com/webcast/room/chat/?iid=7419738215660145429&device_id=7109705346453276166&ac=wifi&channel=googleplay&aid=1233&app_name=musical_ly&version_code=300102&version_name=30.1.2&device_platform=android&os=android&ab_version=30.1.2&ssmix=a&device_type=STK-L21&device_brand=HUAWEI&language=en&os_api=29&os_version=10&openudid=e78297c0aef18904&manifest_version_code=2023001020&resolution=1080*2224&dpi=480&update_version_code=2023001020&_rticket=1692681170963&current_region=IQ&app_type=normal&mcc_mnc=41805&timezone_name=Asia%2FBaghdad&carrier_region_v2=418&residence=IQ&app_language=en&carrier_region=IQ&ac2=wifi&uoo=0&op_region=IQ&timezone_offset=10800&build_number=30.1.2&host_abi=arm64-v8a&locale=en&ts=1692681170&cdid=31e5fde8-8bd4-4cdf-92af-97153ebda575&webcast_sdk_version=2920&webcast_language=en&webcast_locale=en&current_network_quality_info=%7B%22tcp_rtt%22%3A6%2C%22quic_rtt%22%3A6%2C%22http_rtt%22%3A300%2C%22downstream_throughput_kbps%22%3A1400%2C%22quic_send_loss_rate%22%3A-1%2C%22quic_receive_loss_rate%22%3A-1%2C%22net_effective_connection_type%22%3A4%2C%22video_download_speed%22%3A160%7D HTTP/2';
-
-  const headers = {
+async function sendRequest(sessionId, randomContent, i) {1000
+  const url = 'https://www.tiktok.com/@jamesozzy93/live
+  const headers = {tap my doot 
     'Host': 'webcast16-normal-c-useast1a.tiktokv.com',
     'Cookie': `sessionid=${sessionId}`,
     'Content-Length': 299,
